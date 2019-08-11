@@ -41,5 +41,17 @@
 <script>
 
 export default {
+    head () {
+    return {
+      title: 'Albiziapp',
+      meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Albiziapp information' },
+      { hid: 'keywords', name: 'keywords', content: 'botanic, serious-games, collaborative, web-application, gamification' }
+      ]
+    }
+  }
+
 };
 </script>
